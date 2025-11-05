@@ -1,0 +1,63 @@
+# DHT11 Temperature and Humidity Monitoring System
+
+## Activity Title
+Github-based QA Documentation and Problem Solving based on Electronics/Cross Domain Projects
+
+---
+
+## A. Program
+The main program (`DHT_Code_PM.ino`) is included in this repository.  
+It contains the Arduino source code for reading temperature and humidity values from the DHT11 sensor and displaying them on the Serial Monitor at regular intervals.  
+Refer to the program file for complete implementation details.
+
+---
+
+## B. Brief Description of the Code
+This project implements a Temperature and Humidity Monitoring System using an Arduino UNO and a DHT11 sensor.  
+The system continuously measures temperature (°C) and humidity (%) from the environment and displays the readings on the Serial Monitor every two seconds.
+
+The code includes:
+- Initialization of the DHT11 sensor using the Adafruit DHT library
+- Stable data polling interval using a two-second delay
+- Error handling with `isnan()` checks for invalid readings
+- Structured comments for clarity and maintenance
+
+This project serves as a foundational example of integrating sensors in embedded systems. It demonstrates how software development practices such as version control, issue tracking, and QA documentation can be applied in cross-domain (electronics + software) projects.
+
+---
+
+## C. QA Issues Logged
+All QA issues identified during testing and review are documented under the **Issues** tab of this repository.  
+Each issue includes a clear title, description, proposed fix, and resolution status.  
+Screenshots and references to relevant commits are provided where applicable to ensure full traceability.
+
+---
+
+## D. Collaboration Summary
+During the QA process, multiple GitHub Issues were created to identify and resolve software and documentation issues.  
+
+Key collaboration activities included:
+- Logging issues such as incorrect pin configuration, unstable readings, missing delay, and lack of documentation.
+- Using comments under each issue to discuss causes, propose solutions, and document testing outcomes.
+- Committing fixes with descriptive messages referencing the corresponding issue (e.g., `Fix #1: Added delay between readings`).
+- Verifying each fix through testing before closing the issue.
+
+This approach followed a systematic QA workflow and simulated a real-world collaborative development environment using GitHub's issue tracking and version control features.
+
+---
+
+## E. Learning Outcome
+Through this activity, I learned to:
+- Create and manage a GitHub repository for an embedded system project.
+- Apply structured QA documentation and issue tracking using GitHub Issues.
+- Collaborate through comments, commits, and issue-based workflows.
+- Integrate software QA principles with hardware-based electronics development.
+- Understand the importance of documentation, testing, and version control in professional engineering projects.
+
+This exercise provided hands-on experience in combining software quality assurance practices with embedded systems, promoting cross-domain learning and professional development.
+
+---
+
+## F. Report
+A detailed activity report (in PDF format) has been prepared and attached in this repository under the file name `Report.pdf`.  
+The report summarizes all activity components, including code details, issue tracking, collaboration outcomes, and key learnings.
